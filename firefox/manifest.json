@@ -1,31 +1,31 @@
 {
-  "name": "Old Reddit Redirect",
+  "name": "Back to the Old Reddit Firefox",
   "description": "Ensure Reddit always loads the old design",
-  "version": "1.8.2",
-  "manifest_version": 2,
+  "version": "1.0.0",
+  "manifest_version": 3,
   "browser_specific_settings": {
     "gecko_android": {},
     "gecko": {
-      "id": "{9063c2e9-e07c-4c2c-9646-cfe7ca8d0498}"
+      "id": "{1e457ddb-145e-4189-96fb-4762f161bb4d}"
     }
   },
   "background": {
-    "scripts": ["background.js"]
+    "scripts": ["../background.js"]
   },
   "icons": {
-    "48": "img/icon48.png",
-    "128": "img/icon128.png"
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
   },
   "content_scripts": [
     {
       "matches": ["*://old.reddit.com/*"],
-      "css": ["styles.css"],
+      "css": ["../styles.css"],
       "run_at": "document_start"
     }
   ],
-  "permissions": [
-    "webRequest",
-    "webRequestBlocking",
+  "permissions": ["webRequest", "webRequestBlocking"],
+  "host_permissions": [
     "*://reddit.com/*",
     "*://www.reddit.com/*",
     "*://np.reddit.com/*",
