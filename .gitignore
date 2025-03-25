@@ -2,3 +2,8 @@
 *.zip
 .DS_Store
 source-images/
+xcuserdata/
+*.xcuserstate
+build/
+DerivedData/
+web-ext-artifacts/
