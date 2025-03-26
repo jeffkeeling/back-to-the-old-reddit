@@ -1,3 +1,5 @@
+![Icon](https://github.com/jeffkeeling/back-to-the-old-reddit/blob/master/chrome/icons/icon128.png)
+
 # Back to the Old Reddit
 
 This is a fork of [Old Reddit Redirect](https://github.com/tom-james-watson/old-reddit-redirect)
