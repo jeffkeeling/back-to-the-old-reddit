@@ -17,8 +17,6 @@
 		1F15BFDF2D89FFBE0088E25C /* Back to the Old Reddit Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1F15BFDE2D89FFBE0088E25C /* Back to the Old Reddit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1F15BFE52D89FFBE0088E25C /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 1F15BFA82D89FFBD0088E25C /* Main.html */; };
 		1F15BFE62D89FFBE0088E25C /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 1F15BFA82D89FFBD0088E25C /* Main.html */; };
-		1F15BFE72D89FFBE0088E25C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F15BFAA2D89FFBD0088E25C /* Icon.png */; };
-		1F15BFE82D89FFBE0088E25C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F15BFAA2D89FFBD0088E25C /* Icon.png */; };
 		1F15BFE92D89FFBE0088E25C /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 1F15BFAB2D89FFBD0088E25C /* Style.css */; };
 		1F15BFEA2D89FFBE0088E25C /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 1F15BFAB2D89FFBD0088E25C /* Style.css */; };
 		1F15BFEB2D89FFBE0088E25C /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F15BFAC2D89FFBD0088E25C /* Script.js */; };
@@ -30,19 +28,19 @@
 		1F15BFF12D89FFBE0088E25C /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F15BFB02D89FFBE0088E25C /* SafariWebExtensionHandler.swift */; };
 		1F15BFF22D89FFBE0088E25C /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F15BFB02D89FFBE0088E25C /* SafariWebExtensionHandler.swift */; };
 		1F15C00B2D89FFBE0088E25C /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = 1F15C0042D89FFBE0088E25C /* styles.css */; };
-		1F15C00C2D89FFBE0088E25C /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 1F15C0052D89FFBE0088E25C /* Makefile */; };
 		1F15C00D2D89FFBE0088E25C /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = 1F15C0062D89FFBE0088E25C /* _metadata */; };
 		1F15C00E2D89FFBE0088E25C /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 1F15C0072D89FFBE0088E25C /* icons */; };
 		1F15C00F2D89FFBE0088E25C /* rules.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F15C0082D89FFBE0088E25C /* rules.json */; };
 		1F15C0102D89FFBE0088E25C /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F15C0092D89FFBE0088E25C /* manifest.json */; };
 		1F15C0112D89FFBE0088E25C /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1F15C00A2D89FFBE0088E25C /* LICENSE.txt */; };
 		1F15C0122D89FFBE0088E25C /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = 1F15C0042D89FFBE0088E25C /* styles.css */; };
-		1F15C0132D89FFBE0088E25C /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 1F15C0052D89FFBE0088E25C /* Makefile */; };
 		1F15C0142D89FFBE0088E25C /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = 1F15C0062D89FFBE0088E25C /* _metadata */; };
 		1F15C0152D89FFBE0088E25C /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 1F15C0072D89FFBE0088E25C /* icons */; };
 		1F15C0162D89FFBE0088E25C /* rules.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F15C0082D89FFBE0088E25C /* rules.json */; };
 		1F15C0172D89FFBE0088E25C /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F15C0092D89FFBE0088E25C /* manifest.json */; };
 		1F15C0182D89FFBE0088E25C /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1F15C00A2D89FFBE0088E25C /* LICENSE.txt */; };
+		1F79D5D62DADA113003B6D1D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F79D5D52DADA113003B6D1D /* Icon.png */; };
+		1F79D5D72DADA113003B6D1D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F79D5D52DADA113003B6D1D /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,7 +87,6 @@
 
 /* Begin PBXFileReference section */
 		1F15BFA92D89FFBD0088E25C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
-		1F15BFAA2D89FFBD0088E25C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		1F15BFAB2D89FFBD0088E25C /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
 		1F15BFAC2D89FFBD0088E25C /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
 		1F15BFAD2D89FFBD0088E25C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +115,7 @@
 		1F15C0082D89FFBE0088E25C /* rules.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = rules.json; path = ../../../chrome/rules.json; sourceTree = "<group>"; };
 		1F15C0092D89FFBE0088E25C /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../../chrome/manifest.json; sourceTree = "<group>"; };
 		1F15C00A2D89FFBE0088E25C /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE.txt; path = ../../../chrome/LICENSE.txt; sourceTree = "<group>"; };
+		1F79D5D52DADA113003B6D1D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,7 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				1F15BFA82D89FFBD0088E25C /* Main.html */,
-				1F15BFAA2D89FFBD0088E25C /* Icon.png */,
+				1F79D5D52DADA113003B6D1D /* Icon.png */,
 				1F15BFAB2D89FFBD0088E25C /* Style.css */,
 				1F15BFAC2D89FFBD0088E25C /* Script.js */,
 			);
@@ -395,7 +393,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F15BFE72D89FFBE0088E25C /* Icon.png in Resources */,
+				1F79D5D62DADA113003B6D1D /* Icon.png in Resources */,
 				1F15BFBE2D89FFBE0088E25C /* LaunchScreen.storyboard in Resources */,
 				1F15BFE52D89FFBE0088E25C /* Main.html in Resources */,
 				1F15BFEB2D89FFBE0088E25C /* Script.js in Resources */,
@@ -409,9 +407,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F15BFE82D89FFBE0088E25C /* Icon.png in Resources */,
 				1F15BFEA2D89FFBE0088E25C /* Style.css in Resources */,
 				1F15BFCD2D89FFBE0088E25C /* Main.storyboard in Resources */,
+				1F79D5D72DADA113003B6D1D /* Icon.png in Resources */,
 				1F15BFEC2D89FFBE0088E25C /* Script.js in Resources */,
 				1F15BFF02D89FFBE0088E25C /* Assets.xcassets in Resources */,
 				1F15BFE62D89FFBE0088E25C /* Main.html in Resources */,
@@ -470,7 +468,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F15C0132D89FFBE0088E25C /* Makefile in Sources */,
 				1F15BFF12D89FFBE0088E25C /* SafariWebExtensionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -479,7 +476,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F15C00C2D89FFBE0088E25C /* Makefile in Sources */,
 				1F15BFF22D89FFBE0088E25C /* SafariWebExtensionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -723,6 +719,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Back to the Old Reddit";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -760,6 +757,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Back to the Old Reddit";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -864,6 +862,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Back to the Old Reddit";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -899,6 +898,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Back to the Old Reddit";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
